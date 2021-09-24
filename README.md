@@ -1,2 +1,2 @@
-# kattisGo
-Kattis Solution in Golang
+# kattisCsharp
+Kattis Solution in Csharp
