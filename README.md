@@ -1,2 +1,2 @@
-# kattisCsharp
-Kattis Solution in Csharp
+# kattisCpp
+Kattis Solution in Cpp
