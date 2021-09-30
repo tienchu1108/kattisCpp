@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int N;
+    double q, period;
+
+    cin >> N >> q >> period;
+
+    double qaly = q * period;
+
+    for(int i = 2; i <= N; i++){
+        cin >> q >> period;
+        qaly += (q * period);
+    }
+
+    cout << qaly << endl;
+}
+
+
+
+
+
+
+
+
+
+
+
