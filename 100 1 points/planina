@@ -1,0 +1,16 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main() {
+    int n;
+
+    cin >> n;
+
+    int numOfSquares = pow(4, (n));
+    int numOfSquaresOn1Side = sqrt(numOfSquares);
+
+    int numOfPointsOn1Side = numOfSquaresOn1Side + 1;
+    int total = numOfPointsOn1Side * numOfPointsOn1Side;
+
+    cout << total;
+}
